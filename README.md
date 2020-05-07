@@ -1,9 +1,8 @@
-
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-diagram.pdf
+![Update the path with the name of your diagram](diagram.pdf)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ansible file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -105,7 +104,7 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include neccessary IP
 - Run the playbook, and navigate to local host to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
+_
 - _Which file is the playbook? Where do you copy it?_
 ansible playbook filebeat playbook metricbeat playbook elk playbook
 
